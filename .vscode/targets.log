@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Sun Jul 24 17:20:06 2022
+# Make data base, printed on Mon Jul 25 16:51:09 2022
 
 # Variables
 
@@ -34,7 +34,8 @@ HOMEDRIVE = C:
 CURDIR := c:/Users/CHEM-LABS-IT/Desktop/DevOps_Microservices
 # default
 SHELL := sh.exe
-# environment
+# environmen 
+t
 WINDIR = C:\Windows
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
@@ -75,7 +76,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_78064_YYDZOFGGCYQDHNIF
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_26912_FDCGFYFGRJDBUQAL
 # environment
 COMPUTERNAME = CHEM-LABS-IT
 # environment
@@ -99,11 +100,10 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 LOGONSERVER = \\CHEM-LABS-IT
 # environment
-ONEDRIVECONSUMER = C:\Users\CHEM-LABS-IT\OneDrive
-# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
-USERDOMAIN = CHEM-LABS-IT
+US 
+ERDOMAIN = CHEM-LABS-IT
 # default
 MAKE = $(MAKE_COMMAND)
 # default
@@ -140,7 +140,8 @@ KMP_BLOCKTIME = 0
 HOMEPATH = \Users\CHEM-LABS-IT
 # environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
-# environment
+# environ 
+ment
 PROMPT = $P$G
 # environment
 MFLAGS = -Rrqp
@@ -166,7 +167,8 @@ ERLANG_HOME = C:\Program Files\Erlang OTP
 <F = $(notdir $<)
 # environment
 LC_ALL = C
-# automatic
+# 
+ automatic
 ^F = $(notdir $^)
 # default
 SUFFIXES := 
@@ -183,11 +185,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 78064
+VSCODE_PID = 26912
 # environment
 USERDOMAIN_ROAMINGPROFILE = CHEM-LABS-IT
 # variable set hash-table stats:
-# Load=87/1024=8%, Rehash=0, Collisions=10/109=9%
+# Load=86/1024=8%, Rehash=0, Collisions=10/108=9%
 
 # Pattern-specific Variable Values
 
@@ -198,19 +200,23 @@ USERDOMAIN_ROAMINGPROFILE = CHEM-LABS-IT
 # C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1658408102): 6 files, no impossibilities.
 # C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, mtime 1658229055): 13 files, no impossibilities.
 # C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/, mtime 1656413969): 87 files, no impossibilities.
-# C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin (key C:/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin, mtime 1658408250): 127 files, no impossibilities.
+# C:\Program Files\Microsoft\jdk-11.0. 
+12.7-hotspot\bin (key C:/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin, mtime 1658408250): 127 files, no impossibilities.
 # C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/150/Tools/Binn/, mtime 1656413107): 13 files, no impossibilities.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1622903042): 30 files, no impossibilities.
-# C:\Users\CHEM-LABS-IT\scoop\shims (key C:/Users/CHEM-LABS-IT/scoop/shims, mtime 1658572173): 7 files, no impossibilities.
+# C:\Users\CHEM-LABS-IT\scoop\shims (key C:/Users/CHEM-LABS-IT/scoop/shims,  
+mtime 1658572173): 7 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1655373922): 170 files, no impossibilities.
 # . (key c:/Users/CHEM-LABS-IT/Desktop/DevOps_Microservices, mtime 1658567572): 17 files, no impossibilities.
 # C:\Python37\ (key C:/Python37/, mtime 1658567243): 17 files, no impossibilities.
-# C:\Users\CHEM-LABS-IT\AppData\Local\Microsoft\WindowsApps (key C:/Users/CHEM-LABS-IT/AppData/Local/Microsoft/WindowsApps, mtime 1658493258): 24 files, no impossibilities.
+# C:\Users\CHEM-LABS-IT\AppData\Local\Microsoft\WindowsApps (key C:/Users/CHEM-LABS-IT/AppData/Local/Microsoft/WindowsApps, mtime 1658493258): 24 files, no impossi 
+bilities.
 # C:\Python37\Scripts\ (key C:/Python37/Scripts/, mtime 1658567434): 8 files, no impossibilities.
 # C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1657694461): 13 files, no impossibilities.
 # C:\Program Files (x86)\Nmap (key C:/Program Files (x86)/Nmap, mtime 1658406929): 37 files, no impossibilities.
 # C:\Program Files\MySQL\MySQL Shell 8.0\bin\ (key C:/Program Files/MySQL/MySQL Shell 8.0/bin/, mtime 1655797416): 9 files, no impossibilities.
-# C:\Sage\Sage300\RUNTIME (key C:/Sage/Sage300/RUNTIME, mtime 1656827703): 246 files, no impossibilities.
+# C:\Sage\Sage300\RUNTIME (key C:/Sage/S 
+age300/RUNTIME, mtime 1656827703): 246 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
 # C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1657262154): 12 files, no impossibilities.
 # C:\Program Files\Microsoft VS Code\bin (key C:/Program Files/Microsoft VS Code/bin, mtime 1657885552): 4 files, no impossibilities.
@@ -218,16 +224,18 @@ USERDOMAIN_ROAMINGPROFILE = CHEM-LABS-IT
 # C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/, mtime 1656424496): 15 files, no impossibilities.
 # C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1656413122): 6 files, no impossibilities.
 # C:\Program Files\Azure Data Studio\bin (key C:/Program Files/Azure Data Studio/bin, mtime 1655724971): 4 files, no impossibilities.
-# C:\Program Files\Microsoft SQL Server\150\DTS\Binn\ (key C:/Program Files/Microsoft SQL Server/150/DTS/Binn/, mtime 1656424492): 113 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\150\DTS\Binn\ (key C:/Program Files/Mic 
+rosoft SQL Server/150/DTS/Binn/, mtime 1656424492): 113 files, no impossibilities.
 # C:\ProgramData\DockerDesktop\version-bin: could not be stat'd.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1656344689): 8 files, no impossibilities.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1658580136): 3350 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1658734295): 3387 files, no impossibilities.
 # C:\minikube (key C:/minikube, mtime 1658572315): 3 files, no impossibilities.
-# C:\Users\CHEM-LABS-IT\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/CHEM-LABS-IT/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1657222282): 4 files, no impossibilities.
+# C:\Users\CHEM-LABS-IT\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Us 
+ers/CHEM-LABS-IT/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1657222282): 4 files, no impossibilities.
 # C:\Users\CHEM-LABS-IT\.dotnet\tools: could not be stat'd.
 # C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1658568280): 5 files, no impossibilities.
 
-# 4470 files, no impossibilities in 31 directories.
+# 4507 files, no impossibilities in 31 directories.
 
 # Implicit Rules
 
@@ -239,6 +247,7 @@ all: install lint test
 #  Command-line target.
 #  Implicit rule search has been done.
 #  File does not exist.
+ 
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
@@ -260,7 +269,8 @@ test:
 makefile:
 #  Implicit rule search has been done.
 #  Last modified 2022-07-23 13:22:14
-#  File has been updated.
+#  
+ File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
@@ -276,13 +286,13 @@ lint:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `makefile', line 23):
-	hadolint Dockerfi 
-le
+	hadolint Dockerfile
 	pylint --disable=R,C,W1203,W1202 app.py
 	
 
 install:
-#  Implicit rule search has not been done.
+#  Impli 
+cit rule search has not been done.
 #  Implicit/static pattern stem: `'
 #  File does not exist.
 #  File has been updated.
@@ -307,7 +317,8 @@ install:
 # Load=8/32=25%, Rehash=0, Collisions=1/10=10%
 #  commands to execute (from `makefile', line 14):
 	pip install --upgrade pip &&\
-	pip install -r requirements.txt
+	pip install -r requiremen 
+ts.txt
 	
 
 # files hash-table stats:
@@ -323,6 +334,6 @@ install:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun Jul 24 17:20:06 2022
+# Finished Make data base on Mon Jul 25 16:51:09 2022
 
  

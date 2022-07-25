@@ -12,4 +12,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -p 8000:80 machine-learning-api
+docker run -p 3000:3000 machine-learning-api

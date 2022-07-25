@@ -18,4 +18,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward machine-learning-api 8000:80
+kubectl port-forward machine-learning-api 3000:3000
