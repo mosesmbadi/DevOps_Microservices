@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=mosesmbadi/machine-learning-api
+dockerpath=machine-learning-api
 
 # Step 2:  
 # Authenticate & tag

@@ -1,4 +1,7 @@
 make.exe --dry-run --always-make --keep-going --print-directory
-'make.exe' is not recognized as an internal or external command,
-operable program or batch file.
-
+make.exe: Entering directory `c:/Users/CHEM-LABS-IT/Desktop/DevOps_Microservices'
+pip install --upgrade pip &&\
+	pip install -r requirements.txt
+ 
+make.exe: Leaving directory `c:/Users/CHEM-LABS-IT/Desktop/DevOps_Microservices'
+ 
