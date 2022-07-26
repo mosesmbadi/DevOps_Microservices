@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir --upgrade pip
 RUN pip install --no-cache-dir --trusted-host pypi.python.org -r requirements.txt
 
 
-EXPOSE 3000
+EXPOSE 80
 
 
 CMD [ "python", "app.py" ]

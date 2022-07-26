@@ -9,7 +9,8 @@ dockerpath=mosesmbadi/machine-learning-api
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run machine-learning-api --image=$dockerpath
+kubectl run machine-learning-api --image=mosesmbadi/machine-learning-api
+
 
 
 # Step 3:
@@ -18,4 +19,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward machine-learning-api 3000:3000
+kubectl port-forward pods/machine-learning-api 8080:80
