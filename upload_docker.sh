@@ -12,9 +12,9 @@ dockerpath=mosesmbadi/machine-learning-api
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
-# docker login -u mosesmbadi
-# docker tag machine-learning-api $dockerpath:latest
+docker login -u mosesmbadi
+docker tag machine-learning-api $dockerpath:latest
 
 # Step 3:
 # Push image to a docker repository
-docker image push mosesmbadi/machine-learning-api
+docker image push mosesmbadi/machine-learning-api:latest

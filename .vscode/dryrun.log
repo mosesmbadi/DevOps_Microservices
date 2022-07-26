@@ -1,7 +1,8 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory `c:/Users/CHEM-LABS-IT/Desktop/DevOps_Microservices'
+# Create python virtualenv & source it
+# source ~/.devops/bin/activate
+python3 -m venv ~/.devops
  
-pip install --upgrade pip &&\
-	pip install -r requirements.txt
 make.exe: Leaving directory `c:/Users/CHEM-LABS-IT/Desktop/DevOps_Microservices'
  
