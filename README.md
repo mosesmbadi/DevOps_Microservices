@@ -22,7 +22,7 @@ source .devops/bin/activate
 
 * Run `make install` to install the necessary dependencies
 
-## Running `app.py`
+### Running `app.py`
 
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
@@ -32,9 +32,21 @@ source .devops/bin/activate
 
 * Setup and Configure Docker locally
 * Setup and Configure Kubernetes locally
+You'll need to install Docker, Minikube and VirtialBox to run K8s locally. The following commands spin up a Kubernetes cluster and configure it to run the Docker image you've built.
+```
+    minikube start
+    kubectl get pod
+```
 * Create Flask app in Container
+```
+    docker run -p 8080:80 mosesmbadi/machine-learning-api
+```
 * Run via kubectl
-
+```
+    kubectl run machine-learning-api --image=$dockerpath --port=80
+    kubectl port-forward mosesmbadi/machine-learning-api 8080:80
+```    
+ 
 
 ## File directories
 
