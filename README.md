@@ -28,7 +28,7 @@ virtualenv .devops
 
 * Run `make install` to install the necessary dependencies
 
-## Running ```app.py```
+## Running the Application
 
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
