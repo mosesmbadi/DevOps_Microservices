@@ -14,11 +14,17 @@ Given a pre-trained, `sklearn` model that has been trained to predict housing pr
 python3 -m pip install --user virtualenv
 
 ```
-## You should have Python 3.7 available in your host. 
-## Check the Python path using ```which python3```
-## Use a command similar to this one:
-python3 -m virtualenv --python=<path-to-Python3.7> .devops
-source .devops/bin/activate
+* You should have Python 3.7 available in your host. 
+* Check the Python path using ```which python3```
+* Create and activate a virtual environment
+    - you need to install pip and virtualenv
+```
+virtualenv .devops
+```
+*Then cd into project directory and activate the virtual environment.
+ ```
+ .devops/Scripts/activate
+ ```
 
 * Run `make install` to install the necessary dependencies
 
