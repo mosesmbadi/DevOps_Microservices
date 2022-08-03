@@ -1,8 +1,34 @@
 make.exe --dry-run --always-make --keep-going --print-directory
-make.exe: Entering directory `c:/Users/CHEM-LABS-IT/Desktop/DevOps_Microservices'
-# Create python virtualenv & source it
-# source ~/.devops/bin/activate
-python3 -m venv ~/.devops
- 
-make.exe: Leaving directory `c:/Users/CHEM-LABS-IT/Desktop/DevOps_Microservices'
- 
+MAKE Version 5.43  Copyright (c) 1987, 2019 Embarcadero Technologies, Inc.
+Incorrect command line argument: --dry-run
+
+Incorrect command line argument: --always-make
+
+Incorrect command line argument: --keep-going
+
+Incorrect command line argument: --print-directory
+
+Syntax: MAKE [options ...] target[s]
+    -B                Builds all targets regardless of dependency dates
+    -Dsymbol[=string] Defines symbol [equal to string]
+    -Idirectory       Names an include directory
+    -K                Keeps (does not erase) temporary files created by MAKE
+    -N                Increases MAKE's compatibility with NMAKE
+    -Wfilename        Writes MAKE to filename updating all non-string options
+    -Usymbol          Undefine symbol
+    -ffilename        Uses filename as the MAKEFILE
+    -a                Performs auto-dependency checks for include files
+    -c                Caches auto-dependency information
+    -e                Ignores redefinition of environment variable macros
+    -i                Ignores errors returned by commands
+    -l+               Enables use of long command lines
+    -m                Displays the date and time stamp of each file
+    -n                Prints commands but does not do them
+    -p                Displays all macro definitions and implicit rules
+    -q                Returns zero if target is up-to-date and nonzero
+                      if it is not (for use in batch files)
+    -r                Ignores rules and macros defined in BUILTINS.MAK
+    -s                Silent, does not print commands before doing them
+    -? or -h          Prints this message
+      Options marked with '+' are on by default. To turn off a default
+      option follow it by a '-', for example: -a- 
